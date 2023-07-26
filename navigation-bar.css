@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #fbf7e3;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 45px;
+  height: 200px;
+}
+
+nav button img {
+  width: 80px;
+  height: auto;
+}
+
+.button {
+  background-color: rgb(255, 223, 127);
+  border: none;
+  border-radius: 35px;
+  font-size: 20px;
+  padding-block: 25px;
+  padding-inline: 35px;
+  margin-inline: 20px;
+  color: #742305;
+}
+
+.big {
+  font-size: 40px;
+  padding: 30px;
+  padding-inline: 60px;
+  border-radius: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
